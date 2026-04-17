@@ -1,0 +1,7 @@
+Algorithm,Silhouette_Score,Davies_Bouldin_Score,Calinski_Harabasz_Score,Notes
+K-Means,0.3661,1.2293,152.34,"Best CH Score, clean 3 clusters"
+Hierarchical,0.363,1.2671,150.21,"Similar to K-Means, good dendrogram"
+DBSCAN,0.4539,0.6036,124.9,"Best Silhouette & DB, found 5 clusters + 18 noise"
+Spectral,0.3228,0.6715,83.99,Struggled with tabular data
+GMM,0.2948,1.4124,120.8,"Probabilistic, lowest silhouette"
+Density Peak,0.3406,1.3917,105.16,"Good decision graph, moderate performance"
